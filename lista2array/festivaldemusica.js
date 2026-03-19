@@ -7,7 +7,7 @@ const grupoVIP = {
     consumoExtras: [] 
 };
 
-console.log("\n--- Lançamento do Promotor ---");
+console.log("--- Lançamento do Promotor ---");
 const bebida1 = prompt("Nome da primeira bebida importada: ");
 const bebida2 = prompt("Nome da segunda bebida importada: ");
 const valorTotalBebidas = parseFloat(prompt("Valor total das duas bebidas (R$): "));

@@ -18,4 +18,4 @@ while (tentativa !== senhaCorreta) {
 
 
 alert=("Cofre liberado com sucesso");
-console.log("Acesso autorizado.");
+console.log("===Acesso autorizado===");

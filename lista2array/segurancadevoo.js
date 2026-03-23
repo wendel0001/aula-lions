@@ -22,7 +22,7 @@ if (tempOk && pressaoOk && combustivelOk) {
     turbina.status = "Falha Crítica";
     turbina.bloqueioAtivado = true;
 }
-console.log("\n==============================");
-console.log("       PAINEL DE VOO          ");
-console.log("==============================");
+console.log("\n==================================================================================");
+console.log("                             PAINEL DE VOO          ");
+console.log("==================================================================================");
 console.table([turbina]);

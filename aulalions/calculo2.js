@@ -1,6 +1,6 @@
 const prompt = require('prompt-sync')();
 
-function media(nota1,nota2,nota3){
+function media(){
     return (nota1+nota2+nota3)/3;  
 }
 

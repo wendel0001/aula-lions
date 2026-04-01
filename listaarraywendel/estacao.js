@@ -21,6 +21,6 @@ if (media(estacao.temperatura) >= 35) {
         console.log("perigo: media de temperatura extrema  "+ media(estacao.temperatura) + " detectada no" +estacao.local);
 }else {
     estacao.alerta === false
-    console.log("temperaturas dentro da normalidade");
+    console.log(" temperaturas dentro da normalidade");
 }
 console.table(estacao);

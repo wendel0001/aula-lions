@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IA do Wendel - Web</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <div class="chat-container">
+        <header>
+            <h1>IA do Wendel</h1>
+            <span id="status">Ativo</span>
+        </header>
+
+        <div id="chat-window" class="chat-window">
+            <div class="message system">Olá! Como posso te ajudar hoje?</div>
+        </div>
+
+        <div class="input-area">
+            <input type="text" id="user-input" placeholder="Digite sua pergunta..." autofocus>
+            <button id="send-btn">Enviar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

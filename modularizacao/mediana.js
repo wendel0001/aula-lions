@@ -3,7 +3,7 @@ function mediana(numeros) {
     const meio = Math.floor(listaOrdenada.length / 2);
     if (listaOrdenada.length % 2 !== 0) {
 
-        return listaOrdenada[meio];
+        return listaOrdenada[meio]; 
     } else {
       
         return (listaOrdenada[meio - 1] + listaOrdenada[meio]) / 2;
